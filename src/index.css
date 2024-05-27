@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+  font-family: "Satoshi_Variable";
+  src: url(./assets/Satoshi-Variable.woff2);
+}
+*{
+  font-family: 'Satoshi_Variable';
+}
