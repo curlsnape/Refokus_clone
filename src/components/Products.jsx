@@ -36,18 +36,18 @@ function Products() {
     setpos(val * 13);
   };
   return (
-    <div className="w-full py-10 mt-10 relative">
+    <div className="w-full py-10  sm:mt-14 relative">
       <div className="max-w-screen-lg  mx-auto">
         {info.map((item, index) => (
           <Product key={index} mover={mover} count={index} info={item} />
         ))}
       </div>
-      <div className="w-full h-full pointer-events-none py-20 top-[0%] absolute">
+      <div className="w-full h-full pointer-events-none sm:py-20 py-24 top-[2%] absolute">
         <motion.div
           initial={{ y: pos, x: "-60%" }}
           animate={{ y: pos + `rem` }}
           transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.6 }}
-          className=" w-[25vw]  h-[13rem] absolute left-1/2 -translate-x-[60%] overflow-hidden "
+          className=" sm:w-[25vw] w-[35vw]  h-[13rem] absolute left-[52%] -translate-x-[60%] overflow-hidden "
         >
           <motion.div 
           
