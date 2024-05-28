@@ -42,7 +42,7 @@ function Products() {
           <Product key={index} mover={mover} count={index} info={item} />
         ))}
       </div>
-      <div className="w-full h-full pointer-events-none sm:py-20 py-24 top-[2%] absolute">
+      <div className="w-full h-full pointer-events-none sm:py-20 py-24 top-[0%] absolute">
         <motion.div
           initial={{ y: pos, x: "-60%" }}
           animate={{ y: pos + `rem` }}
