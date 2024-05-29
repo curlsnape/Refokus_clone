@@ -5,7 +5,7 @@ function Card({ width, hover, start, para, firsth, mainh }) {
   
   return (
     <motion.div whileHover={{backgroundColor:hover && '#7443ff',padding:'20px'}}
-      className={`sm:w-1/2 w-full bg-zinc-800 ${width} p-3 sm:min-h-[28rem] min-h-[20rem] flex flex-col justify-between mt-2 sm:mt-0  rounded-xl`}
+      className={`sm:w-1/2  bg-zinc-800 ${width} p-3 sm:min-h-[28rem] min-h-[20rem] flex flex-col justify-between mt-2 sm:mt-0 rounded-xl`}
     >
       <div className="w-full">
         <div className="flex justify-between sm:text-sm text-base items-center">
