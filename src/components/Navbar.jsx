@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import { IoMenu } from "react-icons/io5";
 
 function Navbar() {
   return (
@@ -36,6 +37,8 @@ function Navbar() {
           {" "}
           <Button />
         </div>
+        <span className="text-lg sm:hidden "><IoMenu /></span>
+
       </div>
     </div>
   );
